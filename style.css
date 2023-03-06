@@ -1,0 +1,70 @@
+:root{
+	font-size: 1vw;
+}
+
+
+
+body {
+	background: #575757;
+	text-align: center;
+}
+
+.outer-wrapper {
+	width: 25vw;
+	margin: auto;
+}
+
+
+.out {
+	position: relative;
+	
+
+}
+
+.remove-button {
+	display: none;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	cursor: pointer;
+	color: lime;
+}
+
+
+p {
+	/* border: 1px solid #000; */
+	font-family: Lobster, cursive;
+	color: snow;
+	font-size: 3vw;
+}
+
+b {
+	color: gold;
+}
+
+button {
+	width: 40vw;
+    padding: 3vw 5vw;
+    background: orange;
+    border-radius: 10px;
+    box-shadow: 0.3px 10px 0.3px -1.2px rgb(43 40 40);
+    margin: 20px auto;
+    font-family: Verdana;
+    font-size: 3rem;
+}
+
+
+@media (min-width: 1200px) {
+	button{
+		background: orangered;
+		padding: 1.5vw 2.5vw;
+		width: 30vw;
+	}
+
+	
+}
+
+button:active {
+	box-shadow: 0.3px 6px 0.3px -2px black;
+	transform: translateY(3px)
+}
